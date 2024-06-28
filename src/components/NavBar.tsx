@@ -1,12 +1,10 @@
 import Link from "next/link";
-import LogoBlack from "@/svg/LogoBlack";
 
 export const NavBar = () => {
     return (
         <nav className="bg-black text-white p-4">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center">
-                    {/*<LogoBlack/>*/}
                     <img src="/logo.png" alt="FitImpulz Logo" className="h-10 mr-4"/>
                     <span className="font-semibold text-xl tracking-tight">FITIMPULZ</span>
                 </div>
